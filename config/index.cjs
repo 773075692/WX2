@@ -55,8 +55,8 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '	7_EEOkhywl5l3zIakpoIL1_TIzi7SOQJb7qU1HjETyA',
-  
+  CALLBACK_TEMPLATE_ID: '7_EEOkhywl5l3zIakpoIL1_TIzi7SOQJb7qU1HjETyA',
+  openUrl:'https://www.zycg.gov.cn/freecms/site/zygjjgzfcgzx/cggg/index.html',
   
   CALLBACK_USERS: [
     {
