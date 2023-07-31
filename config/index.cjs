@@ -33,14 +33,14 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1999', date: '08-27',
+          type: '生日', name: '欣欣', year: '1999', date: '08-27',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '张张', year: '1993', date: '03-27',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '相识纪念日', year: '2021', date: '01-17',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -55,8 +55,10 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '7_EEOkhywl5l3zIakpoIL1_TIzi7SOQJb7qU1HjETyA',
-
+  CALLBACK_TEMPLATE_ID: 'AClh744e54LOp-5tnr-1RibM0dDud8lkFWypTplCzNM',
+  
+  openUrl:'https://www.zycg.gov.cn/freecms/site/zygjjgzfcgzx/cggg/index.html',
+  
   CALLBACK_USERS: [
     {
       name: '自己',
